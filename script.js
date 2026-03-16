@@ -1,5 +1,5 @@
-const SHOPIFY_DOMAIN = "TON-SHOP.myshopify.com";
-const STOREFRONT_TOKEN = "TON_STOREFRONT_TOKEN";
+const SHOPIFY_DOMAIN = "871a55-20.myshopify.com";
+const STOREFRONT_TOKEN = "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";
 
 const STOREFRONT_API_URL = `https://${SHOPIFY_DOMAIN}/api/2026-01/graphql.json`;
 
