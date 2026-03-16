@@ -1,29 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-<title>Produits SEO</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Produits | Golden King SEO Engine</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+  <nav class="menu">
+    <a href="index.html">Dashboard</a>
+    <a href="products.html">Produits</a>
+    <a href="seo.html">SEO Scan</a>
+    <a href="about.html">À propos</a>
+  </nav>
 
-<nav class="menu">
-<a href="index.html">Dashboard</a>
-<a href="products.html">Produits</a>
-<a href="seo.html">SEO Scan</a>
-</nav>
+  <main class="container">
+    <section class="card full">
+      <h1>Produits Shopify</h1>
+      <p>Liste automatique des produits publiés avec leurs descriptions.</p>
+      <button id="load-products-btn">Charger les produits</button>
+    </section>
 
-<h1>Produits analysés</h1>
+    <section class="card full">
+      <div id="products-status">Clique sur "Charger les produits"</div>
+      <div id="products-grid" class="products-grid"></div>
+    </section>
+  </main>
 
-<div class="card">
-<h2>Mango Kush</h2>
-<p>Score SEO : 78</p>
-</div>
-
-<div class="card">
-<h2>Lemon Haze</h2>
-<p>Score SEO : 64</p>
-</div>
-
+  <script src="script.js"></script>
 </body>
 </html>
