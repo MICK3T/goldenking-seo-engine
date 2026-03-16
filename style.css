@@ -1,3 +1,16 @@
+.menu{
+display:flex;
+gap:20px;
+justify-content:center;
+margin-bottom:40px;
+}
+
+.menu a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
 *{
   box-sizing:border-box;
 }
