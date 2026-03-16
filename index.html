@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Golden King SEO Engine</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <h1>Golden King SEO Engine</h1>
+    <p>Dashboard simple pour visualiser le score SEO de tes produits.</p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Produit analysé</h2>
+      <p id="product-name">Mango Kush</p>
+    </section>
+
+    <section class="card">
+      <h2>Score SEO</h2>
+      <div class="score" id="seo-score">78</div>
+      <p id="seo-status">Bon niveau SEO</p>
+    </section>
+
+    <section class="card">
+      <h2>Actions</h2>
+      <button id="scan-btn">Scanner</button>
+      <button id="improve-btn">Optimiser</button>
+    </section>
+
+    <section class="card full">
+      <h2>Résumé</h2>
+      <ul id="seo-list">
+        <li>Meta title correct</li>
+        <li>Meta description à améliorer</li>
+        <li>2 images sans texte ALT</li>
+      </ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
